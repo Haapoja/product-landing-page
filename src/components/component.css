@@ -1,0 +1,192 @@
+.navBar{
+    width:100%;
+    height:7vh;
+    background-color: darkslategray;
+}
+.navText{
+   margin:auto;
+   text-align: left;
+   padding-left: 10px;
+   padding-top: 1%;
+   color:white;
+   text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+/* header */
+
+.header{
+    width:100%;
+    height:40vh;
+    background-image: url("https://c.wallhere.com/photos/53/47/hive_honeycombs_hexagon_bright_white_simple-69277.png!d");
+    background-size:cover;
+    margin-top:-1%;
+}
+.lieContainer{
+    width: 30%;
+    margin:auto 50%;
+    position: relative;
+    bottom:-30%;
+}
+.lies{
+    font-size: 1.6em;
+}
+.lies1{
+    font-size:1.4vh;
+}
+.iframe-con{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    left:50vh;
+    bottom:7vh;
+   
+   
+}
+.video{
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+}
+
+/* Features */
+
+.features{
+    background-color:white;
+    width:100%;
+    height:100vh;
+    
+    padding:10px ;
+   margin:auto;
+}
+.boxbox{
+    display:flex;
+    margin:auto;
+    
+}
+.box{
+    width:70vh;
+    height:30vh;
+    background-color:white;
+    border: 1px solid black;
+    padding:5px;
+    margin:auto;
+    margin-right:10px;
+}
+.statbox{
+    border-bottom:solid 2px black;
+    border-left:solid 2px black;
+    width:16vh;
+    margin:auto 0% ;
+   position: relative;
+   top:20%;
+    
+}
+.glyphicon{
+   font-size:15vh;
+   
+}
+.box1{
+    width:70vh;
+    height:30vh;
+    background-color:white;
+    border: 1px solid black;
+    padding:5px;
+    margin:auto;
+    margin-left:10px;
+}
+.cogbox{
+
+    width:16vh;
+    margin:auto 0% ;
+   position: relative;
+   top:20%;
+    
+}
+.boxbox1{
+    display:flex;
+    margin:auto;
+    position: relative;
+    top:40px;
+}
+.box2{
+    width:70vh;
+    height:30vh;
+    background-color:white;
+    border: 1px solid black;
+    padding:5px;
+    margin:auto;
+    margin-right:8px;
+}
+.phonebox{
+
+    width:16vh;
+    margin:auto 0% ;
+   position: relative;
+   top:20%;
+    
+}
+.box3{
+    width:70vh;
+    height:30vh;
+    background-color:white;
+    border: 1px solid black;
+    padding:5px;
+    margin:auto;
+    margin-left:8px;
+}
+.piggybox{
+  
+    width:16vh;
+    margin:auto 1% ;
+   position: relative;
+   top:20%;
+    
+}
+.stattext{
+    width:50vh;
+    height:28vh;
+    margin:auto 25%;
+    position: relative;
+    bottom:15vh;
+    font-size:1.6vh;
+    
+}
+.cogtext{
+    width:50vh;
+    height:28vh;
+    margin:auto 25%;
+    position: relative;
+    bottom:15vh;
+    font-size:1.6vh;
+}
+.phonetext{
+    width:50vh;
+    height:28vh;
+    margin:auto 25%;
+    position: relative;
+    bottom:15vh;
+    font-size:1.6vh;
+}
+.piggytext{
+   
+    width:50vh;
+    height:28vh;
+    margin:auto 25%;
+    position: relative;
+    bottom:15vh;
+    font-size:1.6vh;
+}
+.featureh{
+    text-align: left;
+    text-decoration:underline;
+    font-size:2.0em;
+    white-space: nowrap;
+}
+
+
+/* Foooter */
+
