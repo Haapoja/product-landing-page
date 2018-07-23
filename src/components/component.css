@@ -6,15 +6,19 @@
 .navText{
    margin:auto;
    text-align: left;
-   padding-left: 10px;
+   padding-left: 5vh;
    padding-top: 1%;
    color:white;
-   text-shadow:-2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+   text-shadow:-0.1em 0 black, 0 0.1em black, 0.1em 0 black, 0 -0.1em black;
+   font-size: 2.7vh;
 }
+
 
 /* header */
 
 .header{
+    position: relative;
+    float:left;
     width:100%;
     height:40vh;
     background-image: url("https://c.wallhere.com/photos/53/47/hive_honeycombs_hexagon_bright_white_simple-69277.png!d");
@@ -33,7 +37,7 @@
 .lies1{
     font-size:1.4vh;
 }
-.iframe-con{
+/*.iframe-con{
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 35px;
@@ -41,20 +45,22 @@
     left:50vh;
     bottom:7vh;
    
-   
-}
+   }*/
+
 .video{
-    
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 20%;
-    height: 20%;
+   position: relative;
+   bottom:10vh;
+   width:50vh;
+   height:25vh;
+   right:15%;
+  
 }
 
 /* Features */
 
 .features{
+    position: relative;
+    float: left;
     background-color:white;
     width:100%;
     height:100vh;
@@ -75,6 +81,10 @@
     padding:5px;
     margin:auto;
     margin-right:10px;
+}
+.box:hover  {
+    border:2px solid red;
+   
 }
 .statbox{
     border-bottom:solid 2px black;
@@ -97,6 +107,10 @@
     padding:5px;
     margin:auto;
     margin-left:10px;
+}
+.box1:hover{
+    border:2px solid red;
+
 }
 .cogbox{
 
@@ -121,6 +135,9 @@
     margin:auto;
     margin-right:8px;
 }
+.box2:hover{
+    border:2px solid red;
+}
 .phonebox{
 
     width:16vh;
@@ -137,6 +154,9 @@
     padding:5px;
     margin:auto;
     margin-left:8px;
+}
+.box3:hover{
+    border:2px solid red;
 }
 .piggybox{
   
@@ -188,5 +208,15 @@
 }
 
 
+
 /* Foooter */
 
+.footer{
+    position: relative;
+    float:left;
+    width:100%;
+    height:20vh;
+    background-image: url("https://c.wallhere.com/photos/53/47/hive_honeycombs_hexagon_bright_white_simple-69277.png!d");
+    background-size:cover;
+   bottom:0;
+}
